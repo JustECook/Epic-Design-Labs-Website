@@ -1,0 +1,81 @@
+/* Master Styles */
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Navigation Bar Styles */
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.navbar-wrapper img {
+    width: 250px;
+    height: auto;
+}
+
+.navbar-anchor-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-anchor-wrapper a {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    text-decoration: underline transparent;
+}
+
+.navbar-button-wrapper{
+    background: rgb(234, 95, 2);
+    padding: 10px;
+}
+
+.navbar-button-wrapper a {
+    color: white;
+    text-decoration: underline transparent;
+}
+
+/* Title Content Styles */
+
+.title-wrapper {
+    background-image: url("images/title-background-img.webp");
+    background-repeat: no-repeat;
+    height: 650px;
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title-text-wrapper {
+    width: 550px;
+    padding-top: 100px;
+}
+
+.title-text-wrapper h1, p {
+    color: white;
+}
+
+.title-company-logos-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.title-company-logos-wrapper img {
+    transform: scale(0.755);
+}
+
