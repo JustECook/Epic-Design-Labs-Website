@@ -37,7 +37,7 @@ body {
     text-decoration: underline transparent;
 }
 
-.navbar-button-wrapper{
+.navbar-button-wrapper {
     background: rgb(234, 95, 2);
     padding: 10px;
 }
@@ -63,7 +63,7 @@ body {
     padding-top: 100px;
 }
 
-.title-text-wrapper h1, p {
+.title-text-wrapper p {
     color: white;
 }
 
@@ -76,6 +76,41 @@ body {
 }
 
 .title-company-logos-wrapper img {
-    transform: scale(0.755);
+    transform: scale(0.75);
+}
+
+/* DESIGN CONTENT */
+
+.design-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.design-text-wrapper {
+    width: 500px;
+    padding-top: 150px;
+}
+
+.design-text-wrapper h2, p {
+    color: black;
+}
+
+.design-img-wrapper, .traffic-img-wrapper {
+    transform: scale(0.65);
+}
+
+.design-button-wrapper {
+    background: rgb(234, 95, 2);
+    margin-left: 75px;
+    margin-top: -175px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.design-button-wrapper a {
+    color: white;
+    text-decoration: underline transparent;
 }
 
