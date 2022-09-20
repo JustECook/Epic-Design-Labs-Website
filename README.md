@@ -1,10 +1,10 @@
 # Epic-Design-Labs-Website
 Rebuilding the classic website from sight
 
-Updates:
+Need to Do:
 
-1. changed font for whole site
-2. Added "Growth" section
+1. Figure out way to make carousel (most likely need to use JavaScript
+
     
 Completed:
 
@@ -12,3 +12,6 @@ Completed:
 2. Title content complete including logos at bottom of background image
     a. Utilized Flexbox to space logos
 3. Fixed spacing for design/traffic section
+4. Updated fonts
+6. Completed website index page
+7. Created and added Favicon
