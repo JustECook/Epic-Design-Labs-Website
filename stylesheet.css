@@ -4,6 +4,7 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -45,6 +46,7 @@ body {
 .navbar-button-wrapper a {
     color: white;
     text-decoration: underline transparent;
+    font-weight: 600;
 }
 
 /* Title Content Styles */
@@ -59,12 +61,25 @@ body {
 }
 
 .title-text-wrapper {
-    width: 550px;
-    padding-top: 100px;
+    width: 600px;
+    padding-top: 50px;
 }
 
 .title-text-wrapper p {
     color: white;
+}
+
+.title-subtitle-text-wrapper {
+    width: 500px;
+}
+
+.title-logos-wrapper {
+    display: flex;
+    padding-top: 25px;
+}
+
+.title-logo-wrapper {
+    padding-right: 20px;
 }
 
 .title-company-logos-wrapper {
@@ -79,38 +94,101 @@ body {
     transform: scale(0.75);
 }
 
-/* DESIGN CONTENT */
+/* DESIGN STYLES */
 
 .design-wrapper {
     display: flex;
     justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    margin-top: 100px;
 }
 
 .design-text-wrapper {
-    width: 500px;
-    padding-top: 150px;
-}
-
-.design-text-wrapper h2, p {
-    color: black;
-}
-
-.design-img-wrapper, .traffic-img-wrapper {
-    transform: scale(0.65);
+    width: 600px;
+    align-self: center;
 }
 
 .design-button-wrapper {
-    background: rgb(234, 95, 2);
-    margin-left: 75px;
-    margin-top: -175px;
-    padding: 10px;
-    width: fit-content;
+    padding-top: 25px;
 }
 
 .design-button-wrapper a {
+    background:rgb(234, 95, 2);
     color: white;
+    font-weight: 600;
     text-decoration: underline transparent;
+    padding: 15px 30px;
 }
 
+.design-img-wrapper {
+    width: 600px;
+}
+
+.design-img-wrapper img {
+    width: 600px;
+    height: auto;
+}
+
+/* TRAFFIC STYLES */
+
+.traffic-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.traffic-img-wrapper {
+    width: 600px;
+}
+
+.traffic-img-wrapper img {
+    width: 600px;
+    height: auto;
+}
+
+.traffic-text-wrapper {
+    width: 600px;
+    align-self: center;
+}
+
+.traffic-button-wrapper {
+    padding-top: 25px;
+}
+
+.traffic-button-wrapper a {
+    background:rgb(234, 95, 2);
+    color: white;
+    font-weight: 600;
+    text-decoration: underline transparent;
+    padding: 15px 30px;
+}
+
+/* GROWTH STYLES */
+
+.growth-wrapper {
+    background: linear-gradient(to right, rgb(54, 160, 247), rgb(2, 132, 123));
+    height: 550px;
+    margin-top: 75px;
+    padding-bottom: 75px;
+}
+
+.growth-text-wrapper {
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.growth-button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.growth-button-wrapper a {
+    background: white;
+    padding: 15px 30px;
+    color: black;
+    font-weight: 600;
+    text-decoration: underline transparent;
+}
